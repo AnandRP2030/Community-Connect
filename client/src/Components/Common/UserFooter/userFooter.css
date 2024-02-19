@@ -1,0 +1,31 @@
+.user-footer-container {
+  width: 100%;
+  background-color: #4b007a;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.user-footer-container .user-footer-msg-div {
+  width: 30%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.user-footer-msg-div p {
+  margin-bottom: 0;
+}
+.user-footer-container > div {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-footer-container > div > svg {
+  cursor: pointer;
+}
